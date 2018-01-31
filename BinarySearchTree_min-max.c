@@ -64,7 +64,7 @@ int main(){
     }while(ans=='y'||ans=='Y');
     while(choice != 0){
         printf("\n1.Find Min Value");
-        printf("\n1.Find Max Value");
+        printf("\n2.Find Max Value");
         printf("\n0.Exit\n");
         scanf("%d",&choice);
         switch(choice){
