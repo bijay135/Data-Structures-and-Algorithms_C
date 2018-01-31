@@ -240,13 +240,13 @@ void main(){
             break;
             case 8:
                 printf("\nwhich data do you want to delete?\n");
-                scanf("%d",data);
+                scanf("%d",&data);
                 delete_data(data);
                 display();
             break;
             case 9:
                 printf("\nAfter which data do you want deletion\n");
-                scanf("%d",data);
+                scanf("%d",&data);
                 delete_after(data);
                 display();
             break;
