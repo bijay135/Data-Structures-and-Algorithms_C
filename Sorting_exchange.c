@@ -21,7 +21,7 @@ void main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    printf("nUnsorted array = \n");
+    printf("\nUnsorted array = \n");
     for(i=0;i<n;i++){
         printf("%5d",a[i]);
     }
